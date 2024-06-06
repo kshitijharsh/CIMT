@@ -16,22 +16,23 @@ This project is a Spring Boot web application that provides RESTful endpoints fo
 
 ## Endpoints
 
-- GET `/fibonacci/{position}`
-- Method: GET
-- Parameters: position (int)
-- Example: `/fibonacci/10`
+1. GET `/fibonacci/{position}`
+  - Method: GET
+  - Parameters: position (int)
+  - Example: `/fibonacci/10`
 
 
-- POST `/gcd`
-- Method: POST
-- Request Body Format: JSON
-- Example Request Body:
-  ```
-  {
-    "num1": 42,
-    "num2": 140
-  }
-  ```
+2. POST `/gcd`
+  - Method: POST
+  - Request Body Format: JSON
+  - Example Request Body:
+    ```json
+    {
+      "num1": 42,
+      "num2": 140
+    }
+    ```
+
 
 ## Author
 
